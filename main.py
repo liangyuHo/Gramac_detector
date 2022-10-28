@@ -13,7 +13,7 @@ def create_graph(path):
     r2 = r2pipe.open(path)
     r2.cmd('aaaa')
     funcCall=r2.cmdj('agCj')
-    print(funcCall)
+    #print(funcCall)
     G = nx.DiGraph()
     for i in range(len(funcCall)):
         cur_node = funcCall[i]['name']
