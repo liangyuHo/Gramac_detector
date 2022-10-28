@@ -4,7 +4,9 @@
 
 - for detection
 ```
-python3 Gramac_detection -i "FILE_PATH"
+python3 main.py -i "FILE_PATH"
+cd model
+python detector.py
 ```
 note : 
 > "FILE_PATH" is the path of the binary file which you want to predict。
